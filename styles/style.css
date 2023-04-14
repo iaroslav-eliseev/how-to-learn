@@ -62,8 +62,8 @@
   position: absolute;
   width: 765px;
   height: 608px;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
   z-index: 1;
 }
 
@@ -72,7 +72,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  right: 0px;
+  right: 0;
   top: 64px;
 }
 
@@ -163,7 +163,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
@@ -314,11 +313,11 @@
 }
 
 .footer__column_content_info{
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .footer__column_content_social {
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .footer__author {
