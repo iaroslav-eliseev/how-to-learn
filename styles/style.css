@@ -58,7 +58,7 @@
 }
 
 .header__main-illustration {
-  object-fit: fill;
+  object-fit: cover;
   position: absolute;
   width: 765px;
   height: 608px;
@@ -270,7 +270,7 @@
 .kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   position: absolute;
   width: 877px;
@@ -308,7 +308,6 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -321,6 +320,7 @@
 }
 
 .footer__author {
+  margin: 18px 0;
   color: #ffffff;
   line-height: 25px;
   font-size: 18px;
@@ -336,13 +336,12 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  margin: 0 0 16px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
