@@ -1,5 +1,6 @@
 .video__iframes {
-  margin: 50px auto auto;
+  margin: 0 auto;
   display: flex;
   column-gap: 20px;
+  transform: translateY(50px);
 }
